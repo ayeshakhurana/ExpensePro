@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin: 0 10px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  #button{
+    background-color: #007bff;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #incomeimg{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+  .hero {
+    background: linear-gradient(to right, #007bff, #00aaff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+  .features h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .feature-card {
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .feature-card .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  /* Dashboard Section */
+  .dashboard {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+  }
+  .dashboard h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .dashboard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* AI Assistant Section */
+  .ai-assistant {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .ai-assistant h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  .ai-assistant .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  .ai-assistant .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+    .features h2,
+    .dashboard h2,
+    .ai-assistant h2 {
+      font-size: 2rem;
+    }
+  }
